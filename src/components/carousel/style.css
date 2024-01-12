@@ -1,0 +1,52 @@
+.carousel {
+  display: flex;
+}
+
+.carousel button {
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: relative;
+  bottom: 10%;
+  top: 10%;
+  right: 10%;
+  left: 10%;
+}
+.carousel .left {
+  position: absolute;
+  top: 29%;
+  left: 5%;
+}
+.carousel .right {
+  position: absolute;
+  top: 29%;
+  right: 5%;
+}
+.carouselItems {
+  display: flex;
+  gap: 20px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.carouselItem {
+  min-width: calc(20% - 16px);
+  color: white;
+}
+.carouselItem img {
+  width: 100%;
+  border-radius: 10px;
+}
+.carouselTitle{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 15px 0 0 0;
+}
+.releaseDate{
+  font-size: 15px;
+  opacity: 0.6;
+}

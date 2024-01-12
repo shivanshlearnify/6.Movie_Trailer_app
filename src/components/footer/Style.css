@@ -1,0 +1,11 @@
+.footer{
+    background-color: #020c1b;
+    color: white;
+    margin-top: 90px;
+}
+li a{
+    color: white;
+}
+.footer .btn{
+    background: linear-gradient(98.37deg, #f89e00 0.99%, #da2f68 100%);;
+}
